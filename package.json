@@ -1,5 +1,5 @@
 {
-  "name": "deep-copy-js-ts",
+  "name": "isdeepcopy",
   "version": "0.1.0",
   "description": "JS/TS DeepCopy utility functions",
   "main": "dist/index.js",
