@@ -1,0 +1,37 @@
+{
+  "name": "@yrlee/deep-copy-js-ts",
+  "version": "0.1.0",
+  "description": "JS/TS DeepCopy utility functions",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc",
+    "test": "jest",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yermxx/deepCopy.git"
+  },
+  "keywords": [
+    "javascript",
+    "typescipt",
+    "deepCopy",
+    "deepcopy"
+  ],
+  "author": "yrlee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yermxx/deepCopy/issues"
+  },
+  "homepage": "https://github.com/yermxx/deepCopy#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3",
+    "ts-jest": "^29.2.5",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  }
+}
