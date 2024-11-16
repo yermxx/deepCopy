@@ -1,8 +1,10 @@
 {
-  "name": "@yrlee/deep-copy-js-ts",
+  "name": "deep-copy-js-ts",
   "version": "0.1.0",
   "description": "JS/TS DeepCopy utility functions",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts",
